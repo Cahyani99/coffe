@@ -268,6 +268,73 @@ justify-content: center;
 .menu .row .menu-card .menu-card-title {
   margin: 1rem auto 0.5rem;
 }
+/* kontak section*/
+
+.contact .row {
+display: flex;
+flex-wrap: wrap;
+gap: 2rem;
+margin-top: 2rem;
+background-color: #222;
+padding: 2rem;
+
+
+}
+
+
+.contact .row .map {
+    flex: 1 1 45rem;
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+    border: none;
+}
+
+.contact .row .map iframe {
+  width: 100%;
+  height: 100%;
+  min-height: 400px;
+  border: none;
+}
+
+
+.contact .row form {
+
+    flex: 1 1 45rem;
+    padding: 5rem 2rem;
+    text-align: center;
+}
+
+
+.contact .row form .input-group {
+
+display: flex;
+align-items: center;
+margin-top: 2rem;
+background-color: var(--bg);
+border: 1px solid #eee;
+padding-left: 2rem;
+}
+
+.contact .row form .input-group input {
+    width: 100%;
+    padding: 2rem;
+    font-size: 1.7rem;
+    background: none;
+    color: #fff;
+}
+
+
+.contact .row form .btn {
+    margin-top: 3rem;
+    display: inline-block;
+    padding: 1rem 3rem;
+    font-size: 1.7rem;
+    color: #fff;
+    background-color: var(--primary);
+    cursor: pointer;
+}
+
 
 
 
